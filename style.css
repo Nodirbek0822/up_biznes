@@ -160,7 +160,7 @@ body {
 .protifolio__text {
   margin-bottom: 44px;
 }
-.protifolio__text_p {
+.portifolio__text__p {
   width: 430px;
   font-family: var(--inter);
   font-size: 17px;
@@ -188,27 +188,148 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: black;
-
+  cursor: pointer;
   border-bottom: 3px solid var(--purple);
   padding-bottom: 5px;
   width: 72px;
+  transition: 0.6s;
 }
 .case__study p {
   font-family: var(--inter);
   font-weight: 400;
   font-size: 16px;
   color: black;
-
+  cursor: pointer;
   border-bottom: 3px solid var(--purple);
   padding-bottom: 5px;
+  transition: 0.6s;
 }
 .play__live p:hover {
   color: black;
   opacity: 0.6;
   border-bottom: 3px solid rgba(1, 1, 1, 0.17);
+  cursor: pointer;
 }
 .case__study p:hover {
   color: black;
   opacity: 0.6;
   border-bottom: 3px solid rgba(1, 1, 1, 0.17);
+  cursor: pointer;
+}
+
+.services__text {
+  margin-block: 117px 90px;
+  max-width: 913px;
+  margin: 0 auto;
+  text-align: center;
+}
+.services__text h1 {
+  font-family: var(--inter);
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 48px;
+  color: var(--purple);
+}
+.services__text p {
+  font-family: var(--inter);
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  opacity: 0.6;
+  margin-bottom: 156px;
+}
+.services__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+  margin: 0 auto;
+}
+.services__card {
+  padding-block: 35px 65px;
+  background-color: #27a3ff29;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  box-shadow: 0px 14px 37px -10px rgba(179, 179, 179, 0.17);
+}
+.services__card h1 {
+  font-family: var(--inter);
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(124, 118, 187, 1);
+  margin-bottom: 60px;
+}
+.services__card p {
+  width: 330px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+  font-family: var(--inter);
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.services-card__image {
+  width: 500px;
+}
+.services-card__image img {
+  width: 100%;
+}
+.services__btn {
+  border: 2px solid var(--purple);
+  padding: 17px;
+  border-radius: 13px;
+  background-color: transparent;
+  font-family: var(--inter);
+  font-size: 18px;
+  color: var(--purple);
+  font-weight: 700;
+  transition: 0.6s;
+}
+.services__btn:hover {
+  background-color: var(--purple);
+  padding: 17px;
+  border-radius: 12px;
+  border: none;
+  font-family: var(--inter);
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+.testimonials {
+  margin-top: 296px;
+}
+.testimonials h1 {
+  text-align: center;
+  color: var(--purple);
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 125px;
+  line-height: 30px;
+}
+.achive {
+  display: flex;
+  align-items: center;
+}
+.achive__text {
+  position: relative;
+  padding-block: 140px;
+}
+.quote2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.quote1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.achive__card {
+  border-radius: 24px;
+  display: flex;
+  padding: 66px;
+  box-shadow: 0px 14px 37px -10px rgba(179, 179, 179, 0.17);
+  background: rgba(220, 240, 255, 0.04);
+  gap: 36px;
 }
