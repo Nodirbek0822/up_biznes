@@ -152,8 +152,63 @@ body {
 .protifolio__text h1 {
   font-family: var(--inter);
   color: var(--purple);
-  max-width: 845px;
+  width: 845px;
   font-size: 50px;
   font-weight: 700;
   margin-block: 25px 38px;
+}
+.protifolio__text {
+  margin-bottom: 44px;
+}
+.protifolio__text_p {
+  width: 430px;
+  font-family: var(--inter);
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  opacity: 0.61;
+}
+.portifolio__service h3 {
+  color: var(--pink);
+  font-weight: 600;
+  font-size: 19px;
+  font-family: var(--inter);
+}
+.play {
+  display: flex;
+  gap: 53px;
+  margin-top: 44px;
+}
+.play__live {
+  display: flex;
+  gap: 5px;
+}
+.play__live p {
+  font-family: var(--inter);
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+
+  border-bottom: 3px solid var(--purple);
+  padding-bottom: 5px;
+  width: 72px;
+}
+.case__study p {
+  font-family: var(--inter);
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+
+  border-bottom: 3px solid var(--purple);
+  padding-bottom: 5px;
+}
+.play__live p:hover {
+  color: black;
+  opacity: 0.6;
+  border-bottom: 3px solid rgba(1, 1, 1, 0.17);
+}
+.case__study p:hover {
+  color: black;
+  opacity: 0.6;
+  border-bottom: 3px solid rgba(1, 1, 1, 0.17);
 }
